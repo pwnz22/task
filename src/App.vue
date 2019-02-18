@@ -17,33 +17,46 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-.navbar {
-  margin: 20px 0;
-}
-
-.navbar > a {
-  margin-right: 10px;
-}
-
-.navbar a {
-  color: #000;
-  text-decoration: none;
-  border-bottom: 1px solid #000;
-
-  &:hover {
-    border-bottom: none;
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
   }
-}
 
-.router-link-active {
-  border-bottom: none !important;
-}
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    margin: 20px 0;
+  }
+
+  .navbar > a {
+    margin-right: 10px;
+  }
+
+  .navbar a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  .router-link-active {
+    border-bottom: none !important;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-center {
+    align-items: center;
+    justify-content: center;
+  }
 </style>

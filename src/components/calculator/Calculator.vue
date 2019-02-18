@@ -134,19 +134,6 @@
 </script>
 
 <style lang="scss">
-  .title {
-    margin-bottom: 20px;
-  }
-
-  .flex {
-    display: flex;
-  }
-
-  .flex-center {
-    align-items: center;
-    justify-content: center;
-  }
-
   .calc {
     &__btn-add {
       margin: 15px 0;
